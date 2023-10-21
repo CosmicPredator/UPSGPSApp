@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="UPSGeoApp.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:UPSGeoApp"
+    Shell.FlyoutBehavior="Disabled"
+    Shell.ForegroundColor="Black"
+    Shell.TitleColor="#351c15"
+    Shell.BackgroundColor="#ffc107">
+
+    <ShellContent
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage"
+        Title="UPS GPS Worker">
+    </ShellContent>
+
+</Shell>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UPSGeoApp.MainPage"
+             Loaded="ContentPage_Loaded"
+             Background="#351c15">
+
+    <Grid VerticalOptions="Center"
+          HorizontalOptions="Center">
+
+        <StackLayout Orientation="Vertical"
+                     Spacing="20">
+
+            <Label Text="Latitude: ?"
+                   FontSize="20"
+                   x:Name="LatitudeText"
+                   LineBreakMode="WordWrap"
+                   HorizontalOptions="Center"
+                   TextColor="#ffc107"/>
+
+            <Label Text="Longitude: ?"
+               FontSize="20"
+               x:Name="LongitudeText"
+               LineBreakMode="WordWrap"
+               HorizontalOptions="Center"
+               TextColor="#ffc107"/>
+
+            <Button Text="Click Here"
+                    FontSize="15"
+                    HorizontalOptions="Center"
+                    Clicked="Button_Clicked"
+                    BackgroundColor="#ffc107"/>
+
+        </StackLayout>
+        
+    </Grid>
+
+</ContentPage>
